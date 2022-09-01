@@ -1,0 +1,83 @@
+.rating-state {
+  display: flex;
+  flex-direction: column;
+  /*border: 2px solid red;*/
+  background-color: hsl(213, 19%, 18%);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  max-width: 310px;
+}
+
+.image-container1 {
+  /*border: 2px solid blue;*/
+  display: flex;
+  justify-content: center;
+  width: 40px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  /*border: 2px solid orange;*/
+  color: hsl(0, 0%, 100%);
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  /*border: 2px solid green;*/
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.submit-button {
+  background-color: hsl(25, 97%, 53%);
+  padding: 0.7rem 1.8rem;
+  border-radius: 2rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.submit-button:active {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+.rating-container {
+  display: flex;
+  /*border: 2px solid blue;*/
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.circle-1,
+.circle-2,
+.circle-3,
+.circle-4,
+.circle-5 {
+  /*border: 2px solid red;*/
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: hsl(214, 16%, 25%);
+  color: hsl(217, 12%, 63%);
+}
+
+.circle-1:hover,
+.circle-2:hover,
+.circle-3:hover,
+.circle-4:hover,
+.circle-5:hover {
+  background-color: hsl(25, 97%, 53%);
+}
