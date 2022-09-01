@@ -43,6 +43,14 @@ h2 {
   padding: 0.7rem 1.8rem;
   border-radius: 2rem;
   color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  border: none;
+}
+
+.submit-button:disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.5;
 }
 
 .submit-button:active {
@@ -61,23 +69,22 @@ h2 {
   padding-bottom: 10px;
 }
 
-.circle-1,
-.circle-2,
-.circle-3,
-.circle-4,
-.circle-5 {
+.circle {
   /*border: 2px solid red;*/
   color: white;
-  padding: 15px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background-color: hsl(214, 16%, 25%);
   color: hsl(217, 12%, 63%);
+  border: none;
 }
 
-.circle-1:hover,
-.circle-2:hover,
-.circle-3:hover,
-.circle-4:hover,
-.circle-5:hover {
+.circle:hover {
   background-color: hsl(25, 97%, 53%);
+}
+
+.button-selected {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
 }
